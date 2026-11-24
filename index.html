@@ -1247,7 +1247,7 @@
         </nav>
         <p class="legal">Bu site resmî bir Tesla sitesi değildir ve Tesla, Inc. tarafından onaylanmamıştır. Tesla adı ve logosu Tesla, Inc.’in ticari markalarıdır; burada yalnızca bilgi vermek amacıyla kullanılmıştır.</p>
         <p class="legal credit">Fotoğraflar: <a class="link" href="https://commons.wikimedia.org/wiki/File:2008_Tesla_Roadster_front.jpg" target="_blank" rel="noopener">2008 Roadster</a>, Rutger van der Maar, <a class="link" href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a>; <a class="link" href="https://commons.wikimedia.org/wiki/File:2017_Tesla_Roadster_2.0_Petersen_Automotive_Museum.jpg" target="_blank" rel="noopener">2017 Roadster</a>, TaurusEmerald, <a class="link" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Kaynak: Wikimedia Commons.</p>
-        <p class="legal credit">Hazırlayan: Emre. Kaynak kodu: <a class="link" href="https://github.com/emrekayadev/tesla-roadster-info" target="_blank" rel="noopener">GitHub</a></p>
+        <p class="legal credit">Hazırlayan: Emre Kaya. Kaynak kodu: <a class="link" href="https://github.com/emrekayadev/tesla-roadster-info" target="_blank" rel="noopener">GitHub</a> · <a class="link" href="https://www.linkedin.com/in/emrekayadev/" target="_blank" rel="noopener">LinkedIn</a></p>
         <p class="legal credit mt-note">Bu çeviri yapay zekâ desteğiyle hazırlanmıştır ve ana dili konuşan biri tarafından kontrol edilmemiştir; Türkçe sürüm esastır.</p>
       </div>
     </footer>
@@ -1482,7 +1482,6 @@
   "Yazdır / PDF": "Print / PDF",
   "Hedefler": "Targets",
   "Sorular": "Questions",
-  "Hazırlayan: Emre. Kaynak kodu:": "Prepared by Emre. Source code:",
   "hp": "hp",
   "km": "km",
   "Yarış bitti.": "Race finished.",
@@ -1500,7 +1499,8 @@
   "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "No. The sub-1.6 s for the Performance, sub-0.9 s for the Thrust and sub-0.59 s for the Rocket are Tesla’s claims; the sources on this page include no independent measurement made with production cars. At the event Tesla announced 0.81 seconds for a live attempt; that figure has not been independently verified either. The 3.7 seconds is the known figure for the production Roadster Sport.",
   "24 Kasım 2026": "24 November 2026",
   "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "The video shows the first live demo at Tesla’s Roadster event; according to the video description, the multi-mode fan and ground-sealing system acts as a downforce generator by pulling air out from beneath the car. The Rocket is a single-seat trim described as “air ready”, offered by invitation only and, according to Tesla’s site, not approved for public road use. According to Vehicle Engineering VP Lars Moravy, 600 liters of compressed air feed its 10 cold-gas thrusters.",
-  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "According to Vice President of Vehicle Engineering Lars Moravy, 600 liters of compressed air feed the Rocket’s 10 cold-gas thrusters."
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "According to Vice President of Vehicle Engineering Lars Moravy, 600 liters of compressed air feed the Rocket’s 10 cold-gas thrusters.",
+  "Hazırlayan: Emre Kaya. Kaynak kodu:": "Prepared by Emre Kaya. Source code:"
 };
         const ATTR_EN = {
   "Ana menü": "Main menu",
@@ -1535,7 +1535,7 @@
         const loadLang = (code) => new Promise((resolve, reject) => {
           if (RL[code]) { resolve(RL[code]); return; }
           const el = document.createElement('script');
-          el.src = 'lang/' + code + '.js?v=3';
+          el.src = 'lang/' + code + '.js?v=4';
           el.async = true;
           el.onload = () => (RL[code] ? resolve(RL[code]) : reject(new Error('empty')));
           el.onerror = () => reject(new Error('load'));

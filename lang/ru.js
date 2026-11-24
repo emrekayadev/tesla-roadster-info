@@ -233,7 +233,6 @@ window.RL=window.RL||{};window.RL["ru"]={
   "Yazdır / PDF": "Печать / PDF",
   "Hedefler": "Цели",
   "Sorular": "Вопросы",
-  "Hazırlayan: Emre. Kaynak kodu:": "Автор: Emre. Исходный код:",
   "hp": "hp",
   "km": "км",
   "Yarış bitti.": "Гонка завершена.",
@@ -251,7 +250,8 @@ window.RL=window.RL||{};window.RL["ru"]={
   "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "Нет. Значения менее 1,6 с (Performance), менее 0,9 с (Thrust) и менее 0,59 с (Rocket) — заявления Tesla; среди источников на этой странице нет независимых измерений на серийных автомобилях. На мероприятии Tesla объявила 0,81 секунды для живой попытки; это значение тоже не подтверждено независимо. 3,7 секунды — известное значение для серийного Roadster Sport.",
   "24 Kasım 2026": "24 ноября 2026 г.",
   "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "Видео показывает первую живую демонстрацию на мероприятии Roadster от Tesla; согласно описанию видео, многорежимная система вентиляторов и уплотнения у земли работает как генератор прижимной силы, откачивая воздух из-под автомобиля. Rocket — одноместная версия, описываемая как «air ready», предлагается только по приглашениям и, по данным сайта Tesla, не одобрена для использования на дорогах общего пользования. По словам вице-президента по разработке автомобилей Ларса Моравы, 600 литров сжатого воздуха питают 10 холодногазовых двигателей.",
-  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "По словам вице-президента по разработке автомобилей Ларса Моравы, 600 литров сжатого воздуха питают 10 холодногазовых двигателей Rocket."
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "По словам вице-президента по разработке автомобилей Ларса Моравы, 600 литров сжатого воздуха питают 10 холодногазовых двигателей Rocket.",
+  "Hazırlayan: Emre Kaya. Kaynak kodu:": "Автор: Emre Kaya. Исходный код:"
  },
  "attr": {
   "Ana menü": "Главное меню",

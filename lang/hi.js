@@ -233,7 +233,6 @@ window.RL=window.RL||{};window.RL["hi"]={
   "Yazdır / PDF": "प्रिंट / PDF",
   "Hedefler": "लक्ष्य",
   "Sorular": "सवाल",
-  "Hazırlayan: Emre. Kaynak kodu:": "तैयार करने वाले: Emre. सोर्स कोड:",
   "hp": "hp",
   "km": "km",
   "Yarış bitti.": "दौड़ पूरी हुई।",
@@ -251,7 +250,8 @@ window.RL=window.RL||{};window.RL["hi"]={
   "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "नहीं। Performance के लिए 1.6 सेकंड से कम, Thrust के लिए 0.9 सेकंड से कम और Rocket के लिए 0.59 सेकंड से कम Tesla के दावे हैं; इस पेज के स्रोतों में उत्पादन वाली कारों से किया गया कोई स्वतंत्र माप नहीं है। कार्यक्रम में Tesla ने एक लाइव प्रयास के लिए 0.81 सेकंड बताया; इस मान की भी स्वतंत्र रूप से पुष्टि नहीं हुई है। 3.7 सेकंड उत्पादित Roadster Sport का ज्ञात मान है।",
   "24 Kasım 2026": "24 नवंबर 2026",
   "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "यह वीडियो Tesla के Roadster कार्यक्रम का पहला लाइव डेमो दिखाता है; वीडियो के विवरण के अनुसार, मल्टी-मोड पंखा और ज़मीन को सील करने वाली प्रणाली कार के नीचे से हवा खींचकर डाउनफ़ोर्स जनरेटर की तरह काम करती है। Rocket एक सिंगल-सीट वेरिएंट है जिसे “air ready” बताया गया है, यह केवल आमंत्रण पर दिया जाता है और Tesla की वेबसाइट के अनुसार सार्वजनिक सड़कों पर इस्तेमाल के लिए स्वीकृत नहीं है। वाहन इंजीनियरिंग के उपाध्यक्ष लार्स मोरावी के अनुसार, 600 लीटर संपीड़ित हवा इसके 10 कोल्ड-गैस थ्रस्टर को चलाती है।",
-  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "वाहन इंजीनियरिंग के उपाध्यक्ष Lars Moravy के अनुसार, 600 लीटर संपीड़ित हवा Rocket के 10 कोल्ड-गैस थ्रस्टरों को ऊर्जा देती है।"
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "वाहन इंजीनियरिंग के उपाध्यक्ष Lars Moravy के अनुसार, 600 लीटर संपीड़ित हवा Rocket के 10 कोल्ड-गैस थ्रस्टरों को ऊर्जा देती है।",
+  "Hazırlayan: Emre Kaya. Kaynak kodu:": "तैयार करने वाले: Emre Kaya. सोर्स कोड:"
  },
  "attr": {
   "Ana menü": "मुख्य मेन्यू",

@@ -233,7 +233,6 @@ window.RL=window.RL||{};window.RL["ar"]={
   "Yazdır / PDF": "طباعة / PDF",
   "Hedefler": "الأهداف",
   "Sorular": "الأسئلة",
-  "Hazırlayan: Emre. Kaynak kodu:": "إعداد: Emre. الشيفرة المصدرية:",
   "hp": "hp",
   "km": "كم",
   "Yarış bitti.": "انتهى السباق.",
@@ -255,7 +254,8 @@ window.RL=window.RL||{};window.RL["ar"]={
   "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "لا. الأزمنة الأقل من 1.6 ث لـPerformance وأقل من 0.9 ث لـThrust وأقل من 0.59 ث لـRocket هي ادعاءات من Tesla؛ ولا توجد في مصادر هذه الصفحة أي قياسات مستقلة على سيارات إنتاجية. وأعلنت Tesla في الحدث زمناً قدره 0.81 ثانية في محاولة حية؛ وهذا الرقم أيضاً لم يُتحقق منه بشكل مستقل. أما 3.7 ثانية فهي القيمة المعروفة لرودستر سبورت الإنتاجية.",
   "24 Kasım 2026": "24 نوفمبر 2026",
   "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "يعرض الفيديو أول عرض حي في حدث رودستر من تسلا؛ ووفق وصف الفيديو، يعمل نظام المراوح متعددة الأوضاع وإحكام الأرض كمولّد للقوة الضاغطة بسحب الهواء من أسفل السيارة. وRocket فئة بمقعد واحد توصف بأنها «air ready»، وتُعرض بدعوة فقط، ووفق موقع تسلا فهي غير معتمدة للاستخدام على الطرق العامة. ووفق لارس مورافي، نائب رئيس هندسة المركبات، يغذّي 600 لتر من الهواء المضغوط 10 دافعات بالغاز البارد.",
-  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "بحسب لارس موراڤي، نائب الرئيس لهندسة المركبات، تغذّي 600 لتر من الهواء المضغوط 10 دوافع للغاز البارد في Rocket."
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "بحسب لارس موراڤي، نائب الرئيس لهندسة المركبات، تغذّي 600 لتر من الهواء المضغوط 10 دوافع للغاز البارد في Rocket.",
+  "Hazırlayan: Emre Kaya. Kaynak kodu:": "إعداد: Emre Kaya. الشيفرة المصدرية:"
  },
  "attr": {
   "Ana menü": "القائمة الرئيسية",

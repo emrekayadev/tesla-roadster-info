@@ -233,7 +233,6 @@ window.RL=window.RL||{};window.RL["de"]={
   "Yazdır / PDF": "Drucken / PDF",
   "Hedefler": "Ziele",
   "Sorular": "Fragen",
-  "Hazırlayan: Emre. Kaynak kodu:": "Erstellt von Emre. Quellcode:",
   "hp": "hp",
   "km": "km",
   "Yarış bitti.": "Rennen beendet.",
@@ -251,7 +250,8 @@ window.RL=window.RL||{};window.RL["de"]={
   "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "Nein. Die Werte unter 1,6 s (Performance), unter 0,9 s (Thrust) und unter 0,59 s (Rocket) sind Angaben von Tesla; in den Quellen dieser Seite gibt es keine unabhängige Messung mit Serienfahrzeugen. Bei der Veranstaltung nannte Tesla für einen Live-Versuch 0,81 Sekunden; auch dieser Wert wurde nicht unabhängig bestätigt. Die 3,7 Sekunden sind der bekannte Wert für den in Serie gebauten Roadster Sport.",
   "24 Kasım 2026": "24. November 2026",
   "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "Das Video zeigt die erste Live-Demo auf Teslas Roadster-Event; laut Videobeschreibung wirken das Multi-Mode-Gebläse und das Bodenabdichtungssystem als Abtriebsgenerator, indem sie Luft unter dem Fahrzeug absaugen. Der Rocket ist eine einsitzige Ausführung, die als „air ready“ beschrieben wird, nur auf Einladung erhältlich ist und laut Teslas Website nicht für den öffentlichen Straßenverkehr zugelassen ist. Laut Lars Moravy, Vice President Vehicle Engineering, versorgen 600 Liter Druckluft die 10 Kaltgas-Triebwerke.",
-  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "Laut Lars Moravy, Vice President of Vehicle Engineering, speisen 600 Liter Druckluft die 10 Kaltgasdüsen des Rocket."
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "Laut Lars Moravy, Vice President of Vehicle Engineering, speisen 600 Liter Druckluft die 10 Kaltgasdüsen des Rocket.",
+  "Hazırlayan: Emre Kaya. Kaynak kodu:": "Erstellt von Emre Kaya. Quellcode:"
  },
  "attr": {
   "Ana menü": "Hauptmenü",

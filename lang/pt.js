@@ -233,7 +233,6 @@ window.RL=window.RL||{};window.RL["pt"]={
   "Yazdır / PDF": "Imprimir / PDF",
   "Hedefler": "Metas",
   "Sorular": "Perguntas",
-  "Hazırlayan: Emre. Kaynak kodu:": "Feito por Emre. Código-fonte:",
   "hp": "hp",
   "km": "km",
   "Yarış bitti.": "Corrida concluída.",
@@ -251,7 +250,8 @@ window.RL=window.RL||{};window.RL["pt"]={
   "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "Não. Os tempos abaixo de 1,6 s (Performance), 0,9 s (Thrust) e 0,59 s (Rocket) são declarações da Tesla; as fontes desta página não incluem nenhuma medição independente feita com carros de produção. No evento, a Tesla anunciou 0,81 segundo em uma tentativa ao vivo; esse valor também não foi verificado de forma independente. Os 3,7 segundos são o valor conhecido do Roadster Sport de série.",
   "24 Kasım 2026": "24 de novembro de 2026",
   "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "O vídeo mostra a primeira demonstração ao vivo no evento do Roadster da Tesla; segundo a descrição do vídeo, o sistema de ventoinhas multimodo e de vedação ao solo atua como gerador de downforce ao extrair o ar de baixo do carro. O Rocket é uma versão de um só lugar descrita como “air ready”, oferecida somente por convite e, segundo o site da Tesla, não homologada para vias públicas. Segundo Lars Moravy, vice-presidente de engenharia de veículos, 600 litros de ar comprimido alimentam seus 10 propulsores a gás frio.",
-  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "Segundo Lars Moravy, vice-presidente de engenharia de veículos, 600 litros de ar comprimido alimentam os 10 propulsores a gás frio do Rocket."
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "Segundo Lars Moravy, vice-presidente de engenharia de veículos, 600 litros de ar comprimido alimentam os 10 propulsores a gás frio do Rocket.",
+  "Hazırlayan: Emre Kaya. Kaynak kodu:": "Feito por Emre Kaya. Código-fonte:"
  },
  "attr": {
   "Ana menü": "Menu principal",

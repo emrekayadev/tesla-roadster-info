@@ -233,7 +233,6 @@ window.RL=window.RL||{};window.RL["ko"]={
   "Yazdır / PDF": "인쇄 / PDF",
   "Hedefler": "목표",
   "Sorular": "질문",
-  "Hazırlayan: Emre. Kaynak kodu:": "제작: Emre. 소스 코드:",
   "hp": "hp",
   "km": "km",
   "Yarış bitti.": "레이스 종료.",
@@ -251,7 +250,8 @@ window.RL=window.RL||{};window.RL["ko"]={
   "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "아니요. Performance의 1.6초 미만, Thrust의 0.9초 미만, Rocket의 0.59초 미만은 Tesla의 주장이며, 이 페이지의 출처에는 양산차로 한 독립적인 측정이 없습니다. 테슬라는 행사에서 라이브 시도 기록으로 0.81초를 발표했지만 이 값 역시 독립적으로 확인되지 않았습니다. 3.7초는 양산된 로드스터 스포츠의 알려진 값입니다.",
   "24 Kasım 2026": "2026년 11월 24일",
   "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "이 영상은 테슬라 로드스터 행사의 첫 라이브 데모를 보여 줍니다. 영상 설명에 따르면 멀티모드 팬과 지면 밀폐 시스템은 차량 아래의 공기를 빨아내 다운포스 발생기 역할을 합니다. Rocket은 'air ready'로 설명되는 1인승 트림으로, 초대 전용으로 제공되며 테슬라 웹사이트에 따르면 공공 도로 주행은 승인되지 않았습니다. 차량 엔지니어링 부사장 라스 모라비에 따르면 600리터의 압축 공기가 10개의 냉가스 추력기에 공급됩니다.",
-  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "차량 엔지니어링 부사장 라스 모라비에 따르면, 600리터의 압축 공기가 Rocket의 콜드 가스 추력기 10개에 공급됩니다."
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "차량 엔지니어링 부사장 라스 모라비에 따르면, 600리터의 압축 공기가 Rocket의 콜드 가스 추력기 10개에 공급됩니다.",
+  "Hazırlayan: Emre Kaya. Kaynak kodu:": "제작: Emre Kaya. 소스 코드:"
  },
  "attr": {
   "Ana menü": "메인 메뉴",

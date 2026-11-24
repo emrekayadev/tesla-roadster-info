@@ -233,7 +233,6 @@ window.RL=window.RL||{};window.RL["ja"]={
   "Yazdır / PDF": "印刷 / PDF",
   "Hedefler": "目標",
   "Sorular": "質問",
-  "Hazırlayan: Emre. Kaynak kodu:": "作成：Emre。ソースコード：",
   "hp": "hp",
   "km": "km",
   "Yarış bitti.": "レース終了。",
@@ -251,7 +250,8 @@ window.RL=window.RL||{};window.RL["ja"]={
   "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "いいえ。Performanceの1.6秒未満、Thrustの0.9秒未満、Rocketの0.59秒未満はTeslaの主張であり、このページの出典には量産車での独立した測定は含まれていません。テスラはイベントでライブでの計測として0.81秒を発表しましたが、この値も独立には確認されていません。3.7秒は量産されたロードスター・スポーツの既知の値です。",
   "24 Kasım 2026": "2026年11月24日",
   "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "この動画は、テスラのロードスター・イベントでの最初のライブデモを紹介しています。動画の説明によると、マルチモード・ファンと地面シーリング・システムは、車体の下の空気を吸い出すことでダウンフォース・ジェネレーターとして働きます。Rocketは「air ready」と説明される1人乗りのトリムで、招待制で提供され、テスラのサイトによると公道走行は承認されていません。車両エンジニアリング担当副社長のラース・モラヴィによると、600リットルの圧縮空気が10基のコールドガス・スラスターに供給されます。",
-  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "車両エンジニアリング担当副社長ラース・モラヴィによると、600リットルの圧縮空気がRocketの10基のコールドガス・スラスターに供給されます。"
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "車両エンジニアリング担当副社長ラース・モラヴィによると、600リットルの圧縮空気がRocketの10基のコールドガス・スラスターに供給されます。",
+  "Hazırlayan: Emre Kaya. Kaynak kodu:": "作成：Emre Kaya。ソースコード："
  },
  "attr": {
   "Ana menü": "メインメニュー",

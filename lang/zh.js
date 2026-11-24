@@ -233,7 +233,6 @@ window.RL=window.RL||{};window.RL["zh"]={
   "Yazdır / PDF": "打印 / PDF",
   "Hedefler": "目标",
   "Sorular": "问题",
-  "Hazırlayan: Emre. Kaynak kodu:": "制作：Emre。源代码：",
   "hp": "hp",
   "km": "km",
   "Yarış bitti.": "比赛结束。",
@@ -251,7 +250,8 @@ window.RL=window.RL||{};window.RL["zh"]={
   "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "不是。Performance 的低于 1.6 秒、Thrust 的低于 0.9 秒和 Rocket 的低于 0.59 秒都是 Tesla 的说法；本页的资料来源中没有用量产车做的独立测量。特斯拉在活动中公布了一次现场尝试的 0.81 秒成绩，这一数值同样未经独立验证。3.7 秒是已量产的 Roadster Sport 的已知数值。",
   "24 Kasım 2026": "2026年11月24日",
   "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "视频展示了特斯拉Roadster活动上的首次现场演示；据视频说明，多模式风扇和地面密封系统通过抽出车底空气，起到下压力发生器的作用。Rocket是一款被描述为“air ready”的单座版本，仅限受邀购买，且据特斯拉网站称未获准在公共道路上使用。据整车工程副总裁Lars Moravy介绍，600升压缩空气为10个冷气推进器供气。",
-  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "据整车工程副总裁 Lars Moravy 介绍，600 升压缩空气为 Rocket 的 10 个冷气推进器供气。"
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "据整车工程副总裁 Lars Moravy 介绍，600 升压缩空气为 Rocket 的 10 个冷气推进器供气。",
+  "Hazırlayan: Emre Kaya. Kaynak kodu:": "制作：Emre Kaya。源代码："
  },
  "attr": {
   "Ana menü": "主菜单",
