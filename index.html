@@ -581,7 +581,7 @@
       .slip-head h3 { font-size: clamp(1.375rem, 2.4vw, 1.75rem); }
       .slip-head p { margin: 8px 0 0; color: var(--muted); font-size: .9375rem; max-width: 62ch; }
       .slip-list { list-style: none; margin: 28px 0 0; padding: 0; display: grid; gap: 16px; }
-      .slip-list li, .slip-axis { display: grid; grid-template-columns: 112px 1fr 104px; gap: 18px; align-items: center; }
+      .slip-list li, .slip-axis { display: grid; grid-template-columns: 112px 1fr 156px; gap: 18px; align-items: center; }
       .slip-when { color: var(--silver); font-size: .9375rem; font-weight: 500; }
       .slip-track { position: relative; height: 24px; margin: 0 8px; background: linear-gradient(90deg, rgba(255, 255, 255, .09) 1px, transparent 1px) 0 0 / calc(100% / 11) 100%; border-right: 1px solid rgba(255, 255, 255, .09); }
       .slip-track::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--line); }
@@ -591,7 +591,7 @@
       .slip-bar::after { right: -6px; background: var(--red); box-shadow: 0 0 0 4px rgba(227, 25, 55, .25), 0 0 14px var(--red); }
       .js .slip-bar { width: 0; transition: width 1.3s var(--ease); transition-delay: var(--dd, 0s); }
       .js .slip.in .slip-bar { width: calc((var(--t) - var(--a)) / 11 * 100%); }
-      .slip-goal { text-align: end; font-variant-numeric: tabular-nums; }
+      .slip-goal { text-align: end; font-variant-numeric: tabular-nums; white-space: nowrap; }
       .slip-goal small { margin-inline-end: 6px; color: var(--muted); font-size: .8125rem; }
       .slip-goal b { font-size: 1.25rem; font-weight: 650; }
       .slip-axis { margin-top: 12px; color: var(--muted); font-size: .75rem; font-variant-numeric: tabular-nums; }
@@ -859,7 +859,7 @@
           <div class="split-text">
             <p class="kicker reveal">İkinci nesil, 2017–2026</p>
             <h2 class="reveal" style="--d:.05s">İkinci neslin güncellenen tasarımı.</h2>
-            <p class="body reveal" style="--d:.1s">İkinci nesil Roadster, 16 Kasım 2017’de tanıtıldı ve Tesla’nın Ekim 2026 güncellemesiyle Performance, Thrust ve Rocket olmak üzere üç farklı yapı halinde yeniden sunuldu. 2017’deki tanıtımda Tesla; 0–60 mph için 1,9 saniye, 200 kWh batarya ve 620 milden fazla menzil açıklamış, üretimin 2020’de başlayacağını söylemişti. Üretim tarihi sonradan defalarca ertelendi.</p>
+            <p class="body reveal" style="--d:.1s">İkinci nesil Roadster, 16 Kasım 2017’de tanıtıldı ve 15 Ekim 2026’da Teksas’ta canlı yayınlanan bir etkinlikte Performance, Thrust ve Rocket olmak üzere üç farklı yapı halinde yeniden sunuldu. 2017’de Tesla; 0–60 mph için 1,9 saniye, 200 kWh batarya ve 620 mil menzil açıklamış, üretimin 2020’de başlayacağını söylemişti. Üretim tarihi sonradan defalarca ertelendi.</p>
             <dl class="facts reveal" style="--d:.15s">
               <div><dt>İlk tanıtım</dt><dd>2017</dd></div>
               <div><dt>Yapı</dt><dd>3 yapı</dd></div>
@@ -884,7 +884,7 @@
           </div>
           <div class="pkg-meta reveal" style="--d:.1s">
             <div><b>&gt; 300 mil / &gt; 480 km</b><span>Üç yapı için belirtilen menzil</span></div>
-            <div><b>&gt; 230 mph</b><span>Üç yapı için belirtilen azami hız (&gt; 370 km/sa)</span></div>
+            <div><b>&gt; 230 mph</b><span>Rocket için belirtilen azami hız (&gt; 370 km/sa)</span></div>
             <div><b>2028</b><span>Planlanan üretim başlangıcı</span></div>
             <div><b>$50.000 / $250.000</b><span>Performance / Thrust rezervasyon bedeli; Rocket yalnızca davetle. Nihai fiyat açıklanmadı.</span></div>
           </div>
@@ -938,7 +938,7 @@
           <div class="split-text">
             <p class="kicker reveal">Roadster etkinliği</p>
             <h2 class="reveal" style="--d:.05s">Rocket paketinin uçuş sistemi.</h2>
-            <p class="body reveal" style="--d:.1s">Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Mühendislik Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.</p>
+            <p class="body reveal" style="--d:.1s">Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.</p>
             <dl class="facts reveal" style="--d:.15s">
               <div><dt>0–60 mph</dt><dd>&lt;0,59 sn</dd></div>
               <div><dt>Belirtilen azami hız</dt><dd>&gt;230 mph</dd></div>
@@ -976,7 +976,7 @@
                 <div><dt>Koltuk</dt><dd>İki koltuk; Rocket’te tek koltuk</dd></div>
                 <div><dt>0–60 mph</dt><dd>&lt;1,6 sn, &lt;0,9 sn ve &lt;0,59 sn</dd></div>
                 <div><dt>Menzil</dt><dd>&gt;300 mil</dd></div>
-                <div><dt>Azami hız</dt><dd>&gt;230 mph (üç yapı)</dd></div>
+                <div><dt>Azami hız</dt><dd>&gt;230 mph (Rocket)</dd></div>
                 <div><dt>Uçuş</dt><dd>Rocket paketinde uçuş sistemi</dd></div>
                 <div><dt>Üretim</dt><dd>2028’de başlaması planlanıyor</dd></div>
               </dl>
@@ -1000,7 +1000,7 @@
             <tbody role="rowgroup">
               <tr role="row"><th role="rowheader" scope="row">0–60 mph</th><td role="cell"><span class="pt-h">2017 duyurusu</span><span>1,9 sn</span></td><td role="cell"><span class="pt-h">2026 duyurusu</span><span>&lt;1,6 sn, &lt;0,9 sn ve &lt;0,59 sn</span></td></tr>
               <tr role="row"><th role="rowheader" scope="row">Azami hız</th><td role="cell"><span class="pt-h">2017 duyurusu</span><span>250+ mph</span></td><td role="cell"><span class="pt-h">2026 duyurusu</span><span>&gt; 230 mph</span></td></tr>
-              <tr role="row"><th role="rowheader" scope="row">Menzil</th><td role="cell"><span class="pt-h">2017 duyurusu</span><span>&gt; 620 mil</span></td><td role="cell"><span class="pt-h">2026 duyurusu</span><span>&gt; 300 mil</span></td></tr>
+              <tr role="row"><th role="rowheader" scope="row">Menzil</th><td role="cell"><span class="pt-h">2017 duyurusu</span><span>620 mil</span></td><td role="cell"><span class="pt-h">2026 duyurusu</span><span>&gt; 300 mil</span></td></tr>
               <tr role="row"><th role="rowheader" scope="row">Üretim başlangıcı</th><td role="cell"><span class="pt-h">2017 duyurusu</span><span>2020</span></td><td role="cell"><span class="pt-h">2026 duyurusu</span><span>2028 (planlanan)</span></td></tr>
               <tr role="row"><th role="rowheader" scope="row">Ön ödeme</th><td role="cell"><span class="pt-h">2017 duyurusu</span><span>$50.000; Founders Series’te $250.000 (tam ödeme)</span></td><td role="cell"><span class="pt-h">2026 duyurusu</span><span>$50.000 (Performance) / $250.000 (Thrust)</span></td></tr>
             </tbody>
@@ -1010,14 +1010,17 @@
           <div class="slip reveal">
             <div class="slip-head">
               <h3>Üretim hedefi nasıl kaydı?</h3>
-              <p>Her satır, o tarihte açıklanan üretim başlangıç yılını gösterir.</p>
+              <p>Her satır, o tarihte açıklanan üretim başlangıç yılını gösterir; aralık verilmişse çubuk son yıla uzanır.</p>
             </div>
             <ol class="slip-list">
-              <li><span class="slip-when">Kasım 2017</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:0; --t:3; --dd:.1s"></i></span><span class="slip-goal"><small>Hedef</small><b>2020</b></span></li>
-              <li><span class="slip-when">Ocak 2021</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:4; --t:5; --dd:.3s"></i></span><span class="slip-goal"><small>Hedef</small><b>2022</b></span></li>
-              <li><span class="slip-when">Eylül 2021</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:4; --t:6; --dd:.5s"></i></span><span class="slip-goal"><small>Hedef</small><b>2023</b></span></li>
-              <li><span class="slip-when">Mayıs 2023</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:6; --t:7; --dd:.7s"></i></span><span class="slip-goal"><small>Hedef</small><b>2024</b></span></li>
-              <li><span class="slip-when">Ekim 2026</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:9; --t:11; --dd:.9s"></i></span><span class="slip-goal"><small>Hedef</small><b>2028</b></span></li>
+              <li><span class="slip-when">Kasım 2017</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:0; --t:3; --dd:0.1s"></i></span><span class="slip-goal"><small>Hedef</small><b>2020</b></span></li>
+              <li><span class="slip-when">Ocak 2021</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:4; --t:5; --dd:0.25s"></i></span><span class="slip-goal"><small>Hedef</small><b>2022</b></span></li>
+              <li><span class="slip-when">Eylül 2021</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:4; --t:6; --dd:0.4s"></i></span><span class="slip-goal"><small>Hedef</small><b>2023</b></span></li>
+              <li><span class="slip-when">Mayıs 2023</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:6; --t:7; --dd:0.55s"></i></span><span class="slip-goal"><small>Hedef</small><b>2024</b></span></li>
+              <li><span class="slip-when">Şubat 2024</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:7; --t:8; --dd:0.7s"></i></span><span class="slip-goal"><small>Hedef</small><b>2025</b></span></li>
+              <li><span class="slip-when">Ekim 2024</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:7; --t:9; --dd:0.85s"></i></span><span class="slip-goal"><small>Hedef</small><b>2025–26</b></span></li>
+              <li><span class="slip-when">Kasım 2025</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:8; --t:11; --dd:1.0s"></i></span><span class="slip-goal"><small>Hedef</small><b>2027–28</b></span></li>
+              <li><span class="slip-when">Ekim 2026</span><span class="slip-track" aria-hidden="true"><i class="slip-bar" style="--a:9; --t:11; --dd:1.15s"></i></span><span class="slip-goal"><small>Hedef</small><b>2028</b></span></li>
             </ol>
             <div class="slip-axis" aria-hidden="true"><span></span><div><span style="left:0%">2017</span><span style="left:27.27%">2020</span><span style="left:54.55%">2023</span><span style="left:81.82%">2026</span><span style="left:100%">2028</span></div><span></span></div>
             <p class="slip-src">Eylül 2021 ve Mayıs 2023’teki açıklamalar kesin söz değil, koşullu ya da temenni niteliğindeydi.</p>
@@ -1120,7 +1123,7 @@
                   <button type="button">10</button>
                   <button type="button">16</button>
                 </div>
-                <p class="quiz-exp" hidden><b class="quiz-verdict"><span class="v-ok">Doğru!</span><span class="v-no">Yanlış.</span></b> <span>Mühendislik Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.</span></p>
+                <p class="quiz-exp" hidden><b class="quiz-verdict"><span class="v-ok">Doğru!</span><span class="v-no">Yanlış.</span></b> <span>Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.</span></p>
               </div>
             <div class="quiz-actions"><button class="btn btn-red quiz-next" type="button" hidden><span class="n-next">Sonraki soru</span><span class="n-last">Sonucu gör</span></button></div>
             <div class="quiz-result" hidden>
@@ -1142,12 +1145,13 @@
             <p class="lead reveal" style="--d:.1s">Bu sayfadaki bilgilerden derlenmiş kısa yanıtlar.</p>
           </div>
           <div class="faq-list reveal" style="--d:.1s">
+              <details class="faq"><summary>Yeni Roadster ne zaman ve nerede tanıtıldı?</summary><p>Tesla ikinci nesil Roadster’ı 15 Ekim 2026 akşamı, SpaceX’in McGregor (Teksas) test sahasında canlı yayınlanan bir etkinlikle tanıttı. Etkinlik, hava tahmini gerekçesiyle 1 Ekim’den bu tarihe ertelenmişti. Fiyat açıklanmadı.</p></details>
               <details class="faq"><summary>Yeni Roadster ne zaman üretilecek?</summary><p>Tesla’ya göre üretimin 2028’de başlaması planlanıyor. 2017’de üretimin 2020’de başlayacağı söylenmişti; tarih sonradan defalarca ertelendi. Ayrıntılar “Hedefler nasıl değişti?” bölümünde.</p></details>
               <details class="faq"><summary>Rocket gerçekten uçabilir mi?</summary><p>Haberlere göre Tesla’nın Ekim 2026’daki gösteriminde araç iticilerle rampadan havalandı, havada döndü ve yeniden indi. Rocket yalnızca davetle sunulan, tek koltuklu ve “uçuşa hazır” olarak tanımlanan bir yapı; kamu yollarında kullanımı onaylanmamış. Fortune’a göre ABD Federal Havacılık İdaresi (FAA) aracın uçak tanımına girmediğini bildirdi.</p></details>
               <details class="faq"><summary>İlk nesil Roadster’dan kaç tane üretildi?</summary><p>Yaklaşık 2.450 adet; araçlar 30’dan fazla ülkede satıldı. Üretim 2008’de başladı ve Lotus’la yapılan şasi sözleşmesi bitince 2012’de sona erdi.</p></details>
               <details class="faq"><summary>İlk nesil Roadster bir Lotus mu?</summary><p>Tam olarak değil. Roadster, Lotus Elise şasisini temel aldı; şasiyi Lotus üretti, elektrikli aktarmayı ve son montajı Tesla yaptı.</p></details>
-              <details class="faq"><summary>Yeni Roadster’ın fiyatı ne kadar?</summary><p>Nihai fiyat açıklanmadı. Performance için 50.000 $, Thrust için 250.000 $ rezervasyon bedeli isteniyor; Rocket yalnızca davetle sunuluyor.</p></details>
-              <details class="faq"><summary>Açıklanan 0–60 mph süreleri kesin mi?</summary><p>Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.</p></details>
+              <details class="faq"><summary>Yeni Roadster’ın fiyatı ne kadar?</summary><p>Nihai fiyat açıklanmadı. Performance için toplam 50.000 $ (5.000 $ hemen, kalanı 10 gün içinde), Thrust için 250.000 $ rezervasyon bedeli isteniyor; Rocket yalnızca davetle sunuluyor. Tesla’nın rezervasyon sözleşmesine göre aracın ne zaman, hatta teslim edilip edilmeyeceği garanti edilmiyor; rezervasyon, satın alma sözleşmesi imzalanana kadar iade edilebiliyor.</p></details>
+              <details class="faq"><summary>Açıklanan 0–60 mph süreleri kesin mi?</summary><p>Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.</p></details>
               <details class="faq"><summary>Bu site resmî bir Tesla sitesi mi?</summary><p>Hayır. Bağımsız bir bilgi projesidir; Tesla, Inc. ile bağlantılı değildir ve onaylanmamıştır.</p></details>
           </div>
         </div>
@@ -1159,7 +1163,7 @@
             <p class="kicker reveal">Kaynaklar</p>
             <h2 class="reveal" style="--d:.05s">Bilgiler nereden geliyor?</h2>
             <p class="lead reveal" style="--d:.1s">Bu sayfadaki bilgiler aşağıdaki kaynaklardan derlendi. Rakamların çoğu üreticinin beyanıdır; bağımsız ölçüm değildir.</p>
-            <p class="updated reveal" style="--d:.15s"><span>Son güncelleme</span> <time datetime="2026-11-07">7 Kasım 2026</time></p>
+            <p class="updated reveal" style="--d:.15s"><span>Son güncelleme</span> <time datetime="2026-11-24">24 Kasım 2026</time></p>
           </div>
           <div class="src-grid">
             <article class="card src reveal">
@@ -1188,6 +1192,7 @@
                 <li><a href="https://thenextweb.com/shift/2021/01/29/a-frustrating-timeline-of-tesla-roadster-delays/" target="_blank" rel="noopener">A frustrating timeline of Tesla Roadster delays</a><small>The Next Web · 2021-01-29</small></li>
                 <li><a href="https://techcrunch.com/2021/09/02/elon-musk-warns-the-tesla-roadster-might-not-ship-until-at-least-2023" target="_blank" rel="noopener">Elon Musk warns the Tesla Roadster might not ship until at least 2023</a><small>TechCrunch · 2021-09-02</small></li>
                 <li><a href="https://electrek.co/2023/05/16/tesla-roadster-production-delayed-again-to-2024-four-years-late/" target="_blank" rel="noopener">Tesla Roadster production delayed again to 2024, four years late</a><small>Electrek · 2023-05-16</small></li>
+                <li><a href="https://electrek.co/2026/04/22/tesla-roadster-unveil-delayed-again-earnings-call/" target="_blank" rel="noopener">Elon Musk pushes Tesla Roadster unveil again — now ‘maybe in a month or so’</a><small>Electrek · 2026-04-22</small></li>
               </ul>
             </article>
             <article class="card src reveal">
@@ -1196,6 +1201,11 @@
                 <li><a href="https://fortune.com/2026/10/17/tesla-flying-roadster-spacex-thrusters-2028-production-price/" target="_blank" rel="noopener">Tesla is taking $250,000 deposits for a Roadster with SpaceX thrusters</a><small>Fortune · 2026-10-17</small></li>
                 <li><a href="https://www.teslarati.com/tesla-roadster-specs-configurations/" target="_blank" rel="noopener">Tesla Roadster: Three configs, one can fly</a><small>Teslarati · 2026-10-15</small></li>
                 <li><a href="https://www.notateslaapp.com/news/4840/new-tesla-roadster-specs-battery-range-speed-trims-and-more" target="_blank" rel="noopener">New Tesla Roadster Specs: Battery, Range, Speed, Trims, and More</a><small>Not a Tesla App · 2026-10</small></li>
+                <li><a href="https://electrek.co/2026/09/28/tesla-roadster-demo-delayed-october-15-weather/" target="_blank" rel="noopener">Tesla delays Roadster demo two weeks to October 15, blames weather</a><small>Electrek · 2026-09-28</small></li>
+                <li><a href="https://insideevs.com/news/809920/tesla-roadster-reveal-event-delayed-october-15/" target="_blank" rel="noopener">The Tesla Roadster Reveal Just Got Delayed</a><small>InsideEVs · 2026-09</small></li>
+                <li><a href="https://cbsnews.com/news/tesla-roadster-dot-flying-car" target="_blank" rel="noopener">We asked the DOT who would oversee a flying car like Tesla’s Roadster</a><small>CBS News · 2026-10</small></li>
+                <li><a href="https://insideevs.com/news/812247/tesla-roadster-preorder-delivery-guarantee/" target="_blank" rel="noopener">Tesla ‘Cannot Guarantee’ Your Roadster Pre-Order Will Ever Be Delivered</a><small>InsideEVs · 2026-10</small></li>
+                <li><a href="https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car" target="_blank" rel="noopener">Tesla ‘Cannot Guarantee’ Roadster Reservation Holders Will Ever Get a Car</a><small>The Drive · 2026-10-17</small></li>
               </ul>
             </article>
             <article class="card src reveal">
@@ -1294,7 +1304,6 @@
   "2017 Roadster, Petersen Otomobil Müzesi": "2017 Roadster, Petersen Automotive Museum",
   "İkinci nesil, 2017–2026": "Second generation, 2017–2026",
   "İkinci neslin güncellenen tasarımı.": "The second generation’s updated design.",
-  "İkinci nesil Roadster, 16 Kasım 2017’de tanıtıldı ve Tesla’nın Ekim 2026 güncellemesiyle Performance, Thrust ve Rocket olmak üzere üç farklı yapı halinde yeniden sunuldu. 2017’deki tanıtımda Tesla; 0–60 mph için 1,9 saniye, 200 kWh batarya ve 620 milden fazla menzil açıklamış, üretimin 2020’de başlayacağını söylemişti. Üretim tarihi sonradan defalarca ertelendi.": "The second-generation Roadster was unveiled on 16 November 2017 and was presented again with Tesla’s October 2026 update in three trims: Performance, Thrust and Rocket. At the 2017 unveiling Tesla claimed 1.9 seconds for 0–60 mph, a 200 kWh battery and a range of over 620 miles, and said the car would arrive in 2020. The production date has since slipped several times.",
   "İlk tanıtım": "First unveiling",
   "Yapı": "Trims",
   "3 yapı": "3 trims",
@@ -1323,7 +1332,6 @@
   "YouTube’da izle": "Watch on YouTube",
   "Roadster etkinliği": "Roadster event",
   "Rocket paketinin uçuş sistemi.": "The Rocket trim’s flight system.",
-  "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Mühendislik Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "The video shows the first live demo at Tesla’s Roadster event; according to the video description, the multi-mode fan and ground-sealing system acts as a downforce generator by pulling air out from beneath the car. The Rocket is a single-seat trim described as “air ready”, offered by invitation only and, according to Tesla’s site, not approved for public road use. According to Engineering VP Lars Moravy, 600 liters of compressed air feed its 10 cold-gas thrusters.",
   "Belirtilen azami hız": "Stated top speed",
   ">300 mil": ">300 mi",
   "Rocket düzeni": "Rocket layout",
@@ -1376,14 +1384,11 @@
   ". Kaynak: Wikimedia Commons.": ". Source: Wikimedia Commons.",
   "Başa dön": "Back to top",
   "Bu site resmî bir Tesla sitesi değildir ve Tesla, Inc. tarafından onaylanmamıştır. Tesla adı ve logosu Tesla, Inc.’in ticari markalarıdır; burada yalnızca bilgi vermek amacıyla kullanılmıştır.": "This is not an official Tesla website and has not been endorsed by Tesla, Inc. The Tesla name and logo are trademarks of Tesla, Inc.; they are used here for informational purposes only.",
-  "Üç yapı için belirtilen azami hız (> 370 km/sa)": "Stated top speed for all three trims (> 370 km/h)",
   "$50.000 / $250.000": "$50,000 / $250,000",
   "Performance / Thrust rezervasyon bedeli; Rocket yalnızca davetle. Nihai fiyat açıklanmadı.": "Reservation deposit for Performance / Thrust; Rocket by invitation only. No final price announced.",
-  ">230 mph (üç yapı)": ">230 mph (all three trims)",
   "Diller": "Languages",
   "İçeriğe geç": "Skip to content",
-  "Bu çeviri yapay zekâ desteğiyle hazırlanmıştır ve ana dili konuşan biri tarafından kontrol edilmemiştir; Türkçe sürüm esastır.": "This translation was prepared with AI assistance and has not been checked by a native speaker; the Turkish version is authoritative."
-,
+  "Bu çeviri yapay zekâ desteğiyle hazırlanmıştır ve ana dili konuşan biri tarafından kontrol edilmemiştir; Türkçe sürüm esastır.": "This translation was prepared with AI assistance and has not been checked by a native speaker; the Turkish version is authoritative.",
   "Birimler": "Units",
   "Varsayılan": "Default",
   "Metrik": "Metric",
@@ -1403,7 +1408,6 @@
   "2017 duyurusu": "2017 announcement",
   "2026 duyurusu": "2026 announcement",
   "1,9 sn": "1.9 s",
-  "> 620 mil": "> 620 mi",
   "Üretim başlangıcı": "Production start",
   "2028 (planlanan)": "2028 (planned)",
   "Ön ödeme": "Deposit",
@@ -1411,7 +1415,6 @@
   "$50.000 (Performance) / $250.000 (Thrust)": "$50,000 (Performance) / $250,000 (Thrust)",
   "Nihai fiyat henüz açıklanmadı. Dayanak olan kaynaklar bu sayfanın “Kaynaklar” bölümünde listelenmiştir.": "The final price has not been announced yet. The sources behind these figures are listed in the “Sources” section of this page.",
   "Üretim hedefi nasıl kaydı?": "How did the production target slip?",
-  "Her satır, o tarihte açıklanan üretim başlangıç yılını gösterir.": "Each row shows the production start year announced at that date.",
   "Kasım 2017": "November 2017",
   "Hedef": "Target",
   "Ocak 2021": "January 2021",
@@ -1439,7 +1442,6 @@
   "Tesla, 2017’de ikinci nesil Roadster’ın üretimi için hangi yılı hedef olarak açıklamıştı?": "Which year did Tesla announce in 2017 as the production target for the second-generation Roadster?",
   "Tesla 2017’de üretimin 2020’de başlayacağını söylemişti; tarih sonradan defalarca ertelendi ve son plan 2028.": "In 2017 Tesla said production would start in 2020; the date was pushed back repeatedly and the latest plan is 2028.",
   "Rocket yapısında kaç soğuk gaz iticisi bulunuyor?": "How many cold-gas thrusters does the Rocket configuration have?",
-  "Mühendislik Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "According to Vice President of Engineering Lars Moravy, 600 liters of compressed air feed the Rocket’s 10 cold-gas thrusters.",
   "Sonraki soru": "Next question",
   "Sonucu gör": "See result",
   "doğru cevap": "correct answers",
@@ -1459,16 +1461,13 @@
   "İlk nesil Roadster bir Lotus mu?": "Is the first-generation Roadster a Lotus?",
   "Tam olarak değil. Roadster, Lotus Elise şasisini temel aldı; şasiyi Lotus üretti, elektrikli aktarmayı ve son montajı Tesla yaptı.": "Not exactly. The Roadster was based on the Lotus Elise chassis; Lotus built the chassis, while Tesla made the electric powertrain and did the final assembly.",
   "Yeni Roadster’ın fiyatı ne kadar?": "How much will the new Roadster cost?",
-  "Nihai fiyat açıklanmadı. Performance için 50.000 $, Thrust için 250.000 $ rezervasyon bedeli isteniyor; Rocket yalnızca davetle sunuluyor.": "The final price has not been announced. A $50,000 reservation deposit is requested for the Performance and $250,000 for the Thrust; the Rocket is offered by invitation only.",
   "Açıklanan 0–60 mph süreleri kesin mi?": "Are the announced 0–60 mph times certain?",
-  "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "No. The sub-1.6 s for the Performance, sub-0.9 s for the Thrust and sub-0.59 s for the Rocket are Tesla’s claims; the sources on this page include no independent measurement made with production cars. The 3.7 seconds is the known figure for the production Roadster Sport.",
   "Bu site resmî bir Tesla sitesi mi?": "Is this an official Tesla website?",
   "Hayır. Bağımsız bir bilgi projesidir; Tesla, Inc. ile bağlantılı değildir ve onaylanmamıştır.": "No. It is an independent information project; it is not affiliated with or endorsed by Tesla, Inc.",
   "Kaynaklar": "Sources",
   "Bilgiler nereden geliyor?": "Where does the information come from?",
   "Bu sayfadaki bilgiler aşağıdaki kaynaklardan derlendi. Rakamların çoğu üreticinin beyanıdır; bağımsız ölçüm değildir.": "The information on this page was compiled from the sources below. Most figures are the manufacturer’s own claims, not independent measurements.",
   "Son güncelleme": "Last updated",
-  "7 Kasım 2026": "7 November 2026",
   "Roadster resmî sayfası": "Official Roadster page",
   "Tesla’nın Roadster etkinliği videosu": "Tesla’s Roadster event video",
   "İlk nesil (2008–2012)": "First generation (2008–2012)",
@@ -1486,7 +1485,22 @@
   "Hazırlayan: Emre. Kaynak kodu:": "Prepared by Emre. Source code:",
   "hp": "hp",
   "km": "km",
-  "Yarış bitti.": "Race finished."
+  "Yarış bitti.": "Race finished.",
+  "İkinci nesil Roadster, 16 Kasım 2017’de tanıtıldı ve 15 Ekim 2026’da Teksas’ta canlı yayınlanan bir etkinlikte Performance, Thrust ve Rocket olmak üzere üç farklı yapı halinde yeniden sunuldu. 2017’de Tesla; 0–60 mph için 1,9 saniye, 200 kWh batarya ve 620 mil menzil açıklamış, üretimin 2020’de başlayacağını söylemişti. Üretim tarihi sonradan defalarca ertelendi.": "The second-generation Roadster was unveiled on 16 November 2017 and presented again in three trims — Performance, Thrust and Rocket — at a livestreamed event in Texas on 15 October 2026. In 2017 Tesla claimed 1.9 seconds for 0–60 mph, a 200 kWh battery and 620 miles of range, and said the car would arrive in 2020. The production date has since slipped several times.",
+  "Rocket için belirtilen azami hız (> 370 km/sa)": "Top speed stated for the Rocket (> 370 km/h)",
+  ">230 mph (Rocket)": ">230 mph (Rocket)",
+  "620 mil": "620 mi",
+  "Her satır, o tarihte açıklanan üretim başlangıç yılını gösterir; aralık verilmişse çubuk son yıla uzanır.": "Each row shows the production start year announced at that date; where a range was given, the bar extends to its last year.",
+  "Şubat 2024": "February 2024",
+  "Ekim 2024": "October 2024",
+  "Kasım 2025": "November 2025",
+  "Yeni Roadster ne zaman ve nerede tanıtıldı?": "When and where was the new Roadster unveiled?",
+  "Tesla ikinci nesil Roadster’ı 15 Ekim 2026 akşamı, SpaceX’in McGregor (Teksas) test sahasında canlı yayınlanan bir etkinlikle tanıttı. Etkinlik, hava tahmini gerekçesiyle 1 Ekim’den bu tarihe ertelenmişti. Fiyat açıklanmadı.": "Tesla unveiled the second-generation Roadster on the evening of 15 October 2026 at an event livestreamed from SpaceX’s McGregor (Texas) test site. The event had been postponed from 1 October because of the weather forecast. No price was announced.",
+  "Nihai fiyat açıklanmadı. Performance için toplam 50.000 $ (5.000 $ hemen, kalanı 10 gün içinde), Thrust için 250.000 $ rezervasyon bedeli isteniyor; Rocket yalnızca davetle sunuluyor. Tesla’nın rezervasyon sözleşmesine göre aracın ne zaman, hatta teslim edilip edilmeyeceği garanti edilmiyor; rezervasyon, satın alma sözleşmesi imzalanana kadar iade edilebiliyor.": "The final price has not been announced. A reservation deposit is requested: $50,000 in total for the Performance ($5,000 immediately, the rest within 10 days) and $250,000 for the Thrust; the Rocket is offered by invitation only. Under Tesla’s reservation agreement, neither when nor even whether the car will be delivered is guaranteed; the reservation is refundable until a purchase agreement is signed.",
+  "Hayır. Performance için 1,6, Thrust için 0,9 ve Rocket için 0,59 saniyenin altı Tesla’nın beyanlarıdır; bu sayfanın kaynaklarında üretim araçlarıyla yapılmış bağımsız bir ölçüm yok. Tesla etkinlikte canlı bir deneme için 0,81 saniye açıkladı; bu değer de bağımsız olarak doğrulanmadı. 3,7 saniye ise üretilmiş Roadster Sport için bilinen değerdir.": "No. The sub-1.6 s for the Performance, sub-0.9 s for the Thrust and sub-0.59 s for the Rocket are Tesla’s claims; the sources on this page include no independent measurement made with production cars. At the event Tesla announced 0.81 seconds for a live attempt; that figure has not been independently verified either. The 3.7 seconds is the known figure for the production Roadster Sport.",
+  "24 Kasım 2026": "24 November 2026",
+  "Video, Tesla’nın Roadster etkinliğindeki ilk canlı gösteriyi sunar; video açıklamasına göre çok modlu fan ve zemin sızdırmazlık sistemi, aracın altından hava çekerek aşağı bastırma kuvveti üretiyor. Rocket; tek koltuklu, “uçuşa hazır” olarak tanımlanan, yalnızca davetle sunulan ve Tesla’nın sitesine göre kamu yollarında kullanımı onaylanmamış bir yapı. Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, 10 soğuk gaz iticisini besliyor.": "The video shows the first live demo at Tesla’s Roadster event; according to the video description, the multi-mode fan and ground-sealing system acts as a downforce generator by pulling air out from beneath the car. The Rocket is a single-seat trim described as “air ready”, offered by invitation only and, according to Tesla’s site, not approved for public road use. According to Vehicle Engineering VP Lars Moravy, 600 liters of compressed air feed its 10 cold-gas thrusters.",
+  "Araç Mühendisliği Başkan Yardımcısı Lars Moravy’ye göre 600 litre sıkıştırılmış hava, Rocket’in 10 soğuk gaz iticisini besliyor.": "According to Vice President of Vehicle Engineering Lars Moravy, 600 liters of compressed air feed the Rocket’s 10 cold-gas thrusters."
 };
         const ATTR_EN = {
   "Ana menü": "Main menu",
@@ -1521,7 +1535,7 @@
         const loadLang = (code) => new Promise((resolve, reject) => {
           if (RL[code]) { resolve(RL[code]); return; }
           const el = document.createElement('script');
-          el.src = 'lang/' + code + '.js?v=2';
+          el.src = 'lang/' + code + '.js?v=3';
           el.async = true;
           el.onload = () => (RL[code] ? resolve(RL[code]) : reject(new Error('empty')));
           el.onerror = () => reject(new Error('load'));
